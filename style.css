@@ -1,0 +1,190 @@
+/* Designing the top bar */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:98%;
+    padding: 5px 20px;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+/* Aligning the logo, menu-bar, find my location to the left */
+.left-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+/*Adjusting the size of the logo*/
+.logo{
+    width: 50px;
+    height:auto;
+    border-radius: 10px;
+}
+
+/*Adjusting the size of the menu-bar*/
+.menu-bar{
+    width: 60px;
+    height:auto;
+    border-radius: 10px;
+}
+
+/* Adding images to address and loaction and designing them*/
+.address{
+    display:flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #6ecff5;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.location{
+    display:flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 30px;
+    padding: 13px 20px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Decoration of sign-in*/
+.sign-in{
+    background-color: rgb(230, 230, 230);
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+
+
+/*Left sidebar*/
+
+.left-sidebar{
+    display:flex;
+    flex-direction: column; /* stacks items from top to bottom*/
+    background-color: rgb(245, 245, 245);
+    width: 250px;
+    padding: 10px;
+    padding-left: 30px;
+    gap: 20px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+}
+
+.left-sidebar p{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item img{
+    width: 40px;
+}
+
+.sign-in-left-sidebar{
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font-size: 20px;
+}
+
+.queries{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    color: #6e6e6e;
+}
+
+.company-section{
+    color: #6e6e6e;
+}
+
+.left-sidebar p:hover{
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.restaurant{
+    display: flex;
+    align-items: center;
+    
+}
+
+.pick-n-pay{
+    display: flex;
+    align-items: center;
+    
+}
+
+.shops{
+    display: flex;
+    align-items: center;
+    
+}
+
+/*Main Section*/
+
+.main-section{
+    margin-top: 72px;
+    margin-left: 280px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px 60px;
+}
+
+.main-section-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.main-section-pic{
+    width: 90%;
+    border-radius: 10px;
+    
+}
+
+.main-contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-contents{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.main-section-contents h1{
+    font-weight: 800;
+}
+
+.address-location{
+    display: flex;
+    align-items: center;
+}
+
+.address-location{
+    gap:8px
+}
+
+.main-section-2 h1{
+    padding-top:50px;
+}
+
+
